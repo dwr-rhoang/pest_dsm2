@@ -1,0 +1,63 @@
+# Description:
+# output location for ANN Training
+# 20190507
+OUTPUT_CHANNEL
+NAME          CHAN_NO DISTANCE VARIABLE INTERVAL PERIOD_OP FILE
+cvp               216        0 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+cvp_intake        216        0 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+glcbelowbar       207        0 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+glcdoughtycut     205   length ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+glceastend        212   length ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+midr_intake       137        0 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+mrundinerd        126   length ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+oldr_ccf           82   length ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+ornullpt           75        0 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+orparadisecut      60   length ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rfal008           276     6239 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rmid015_b         145     2418 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rmid023           135     1064 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rmid041           126     2842 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rmkl019           357      708 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rold014           117      716 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rold024           106     2718 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rold034            90     3021 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsac054           441   length ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsac056           441     3318 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsac064           452      379 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsac075           437    11108 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsac077           288     6696 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsac081           436     5733 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsac092           434       74 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsac139           418     5120 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsan001           286     2426 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsan007            52      366 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsan014            49    10317 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsan018            83     4213 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsan024            47     8080 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsan032           349     4836 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsan087             6     3930 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+rsmkl008          344     5944 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slcbn001          477     3333 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slcbn002          477      169 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slcrd000          471     6498 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slcrd003          474     3774 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slcrd006          469     5552 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slcrd009          468    12254 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+sldut009          273     3948 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slfhn002          479     2944 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slgyr003          501        0 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slgyr008          473     2206 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slhil002          486     1288 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slind005          239      541 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slmzu003          528     1321 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slmzu011          517     6455 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slmzu029          513     1266 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slppr000          269     1491 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slrar000          513     1406 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slrar009          532     6500 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slrck005          247      404 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slsbt011          385     2020 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+slsus012          462     7577 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+sltrm004          310     1835 ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+vict_intake       228   length ec           1day ave       ${QUALOUTDSSFILE_EC_ANN}
+END

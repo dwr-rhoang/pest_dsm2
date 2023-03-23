@@ -1,0 +1,50 @@
+name: pestdsm2
+channels:
+  - cadwr-dms
+  - pyviz
+  - defaults
+  - plotly
+  - conda-forge
+dependencies:
+  - python=3.7
+  - pip
+  - pip:
+    - pyemu
+  # first our packages
+  - pyhecdss
+  - vtools3
+  - pydsm
+  - pydelmod
+  - schimpy
+  # then basics
+  - numba
+  - dask
+  - xarray
+  - netcdf4
+  - scipy
+  - gdal
+  - shapely
+  - pytables
+  - openpyxl
+  # then plot stuff
+  - matplotlib
+  - geopandas
+  - geoviews
+  - holoviews
+  - hvplot
+  - jupyter
+  - plotly=3
+  - networkx
+  # widgets
+  - ipyleaflet
+  - ipywidgets
+  # browsers
+  - selenium
+  - firefox
+  - geckodriver
+  # finally misc 
+  - jupyter_contrib_nbextensions
+  - autopep8
+  - click
+  - numpy
+  - pandas

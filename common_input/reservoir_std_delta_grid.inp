@@ -1,0 +1,181 @@
+# Description:
+# Standard Delta Configuration
+RESERVOIR
+NAME                 AREA      BOT_ELEV  
+# was bethel, renamed to little_franks_tract
+little_franks_tract 15.503100   -5.741       
+clifton_court       91.868000   -7.748      
+discovery_bay       19.632000   -13.654      
+franks_tract        141.786400  -7.754      
+liberty             226.904000  -7.652      
+mildred             42.299600   -11.823       
+# new restoration areas
+decker_island       20.00000    -1.36
+yolo_flyway          5.00000    -1.58
+tule_red            10.00000    -2.41
+END
+
+# Lianwu's results
+RESERVOIR_VOL
+RES_NAME              ELEV      AREA           
+liberty                -61.975          0.000  
+liberty                -32.808          2.478  
+liberty                -16.404         16.220  
+liberty                 -3.281        272.328  
+liberty                 -1.640       1017.270  
+liberty                  0.000       1999.522  
+liberty                  1.640       3031.999  
+liberty                  3.281       4209.851  
+liberty                  4.921       4584.028  
+liberty                  6.562       5190.456  
+liberty                  8.202       6359.679  
+liberty                  9.843       6636.050  
+liberty                 13.123       6731.118  
+liberty                 16.404       6830.894  
+liberty                 19.685       6876.916  
+liberty                 22.966       6890.138  
+clifton_court               -41.864          0.000
+clifton_court               -32.808          0.232
+clifton_court               -16.404          2.641
+clifton_court                -3.281       1721.648
+clifton_court                -1.640       2060.266
+clifton_court                 0.000       2167.212
+clifton_court                 1.640       2189.206
+clifton_court                 3.281       2202.368
+clifton_court                 4.921       2213.733
+clifton_court                 6.562       2222.305
+clifton_court                 8.202       2228.793
+clifton_court                 9.843       2233.958
+clifton_court                13.123       2243.772
+clifton_court                16.404       2255.195
+clifton_court                19.685       2258.395
+clifton_court                22.966       2258.395
+franks_tract                -37.664          0.000
+franks_tract                -32.808          0.077
+franks_tract                -16.404         15.458
+franks_tract                 -3.281       2863.623
+franks_tract                 -1.640       3053.221
+franks_tract                  0.000       3108.659
+franks_tract                  1.640       3135.313
+franks_tract                  3.281       3148.853
+franks_tract                  4.921       3157.061
+franks_tract                  6.562       3162.805
+franks_tract                  8.202       3167.736
+franks_tract                  9.843       3173.686
+franks_tract                 13.123       3179.422
+franks_tract                 16.404       3179.431
+franks_tract                 19.685       3179.431
+little_franks_tract         -10.433          0.000
+little_franks_tract          -3.281        220.520
+little_franks_tract          -1.640        274.450
+little_franks_tract           0.000        286.141
+little_franks_tract           1.640        293.217
+little_franks_tract           3.281        296.166
+little_franks_tract           4.921        297.149
+little_franks_tract           6.562        297.198
+little_franks_tract           8.202        297.230
+little_franks_tract           9.843        297.252
+little_franks_tract          13.123        297.268
+little_franks_tract          16.404        297.268
+mildred                     -27.592          0.000
+mildred                     -16.404         30.433
+mildred                      -3.281        955.409
+mildred                      -1.640        960.074
+mildred                       0.000        964.188
+mildred                       1.640        967.400
+mildred                       3.281        969.247
+mildred                       4.921        971.128
+mildred                       6.562        972.641
+mildred                       8.202        973.281
+mildred                       9.843        973.874
+mildred                      13.123        974.667
+mildred                      16.404        974.977
+mildred                      19.685        974.979
+mildred                      22.966        974.979
+discovery_bay                     -7.612          0.000
+discovery_bay                     -3.281        379.378
+discovery_bay                     -1.640        409.827
+discovery_bay                      0.000        436.020
+discovery_bay                      1.640        460.503
+discovery_bay                      3.281        485.850
+discovery_bay                      4.921        516.216
+discovery_bay                      6.562        588.874
+discovery_bay                      8.202        649.454
+discovery_bay                      9.843        696.445
+discovery_bay                     13.123        906.898
+discovery_bay                     16.404       1134.594
+discovery_bay                     19.685       1141.429
+discovery_bay                     22.966       1141.429
+decker_island	-4.3676	0	
+decker_island	0.9843	5.2816	
+decker_island	1.0458	10.6977	
+decker_island	2.5222	19.7346	
+decker_island	3.8345	26.4496	
+decker_island	4.1626	92.9469	
+decker_island	4.9828	109.6104	
+decker_island	5.1469	130.3766	
+decker_island	7.9356	151.8362	
+decker_island	11.8726	166.5032	
+decker_island	19.0904	179.3331	
+decker_island	20.5668	190.1005	
+decker_island	24.0117	203.7224	
+decker_island	26.9644	204.0696	
+yolo_flyway	-1.58	0	
+yolo_flyway	0.8491	0.2768	
+yolo_flyway	1.0132	0.4119	
+yolo_flyway	1.9974	0.8167	
+yolo_flyway	2.9817	1.1048	
+yolo_flyway	3.9659	1.4157	
+yolo_flyway	4.9502	1.8778	
+yolo_flyway	5.1142	8.8078	
+yolo_flyway	6.0985	9.3445	
+yolo_flyway	6.5906	17.3386	
+yolo_flyway	6.7546	37.623	
+yolo_flyway	6.9187	165.0401	
+yolo_flyway	7.2468	255.3701	
+yolo_flyway	7.4108	268.4444	
+yolo_flyway	8.067	292.7685	
+yolo_flyway	9.3793	316.0618	
+yolo_flyway	10.1995	318.3345	
+yolo_flyway	14.1365	318.5729	
+tule_red	-5	0	
+tule_red	2.3819	22.0927	
+tule_red	3.2021	36.8199	
+tule_red	3.5302	41.8996	
+tule_red	3.6942	119.0968	
+tule_red	3.8583	130.4073	
+tule_red	4.0223	183.76	
+tule_red	4.1864	194.4369	
+tule_red	5.3346	203.8143	
+tule_red	5.4987	349.6494	
+tule_red	5.8268	374.475	
+tule_red	5.9908	388.2494	
+tule_red	6.4829	471.8285	
+tule_red	6.647	705.2431	
+tule_red	6.9751	726.2295	
+tule_red	7.1391	950.8028	
+tule_red	7.9593	967.5632	
+tule_red	8.9436	982.1086	
+tule_red	11.2402	998.1403	
+tule_red	16.3255	998.9839	
+END
+
+RESERVOIR_CONNECTION
+RES_NAME            NODE  COEF_IN   COEF_OUT  
+little_franks_tract 220   1500.000  1500.000    
+discovery_bay       197   1125.000  0.000       
+discovery_bay       198   1125.000  1125.000    
+franks_tract        103   2250.000  2250.000    
+franks_tract        216   1500.000  1500.000    
+franks_tract        219   1500.000  1500.000    
+franks_tract        224   2250.000  2250.000    
+franks_tract        225   1500.000  1500.000    
+franks_tract        232   2250.000  2250.000    
+liberty             322   7500.000  5625.000    
+mildred             127   1500.000  1500.000    
+mildred             129   1500.000  1500.000    
+mildred             130   1500.000  1500.000    
+mildred             136   1500.000  1500.000    
+END
+
+

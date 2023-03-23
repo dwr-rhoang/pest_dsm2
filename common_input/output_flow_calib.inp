@@ -1,0 +1,69 @@
+# Description:
+# Output locations for HYDRO with RKI labels.
+# locations updated CSDP
+# Calibration 2020
+# 20200904
+OUTPUT_CHANNEL
+NAME     CHAN_NO  DISTANCE VARIABLE  INTERVAL PERIOD_OP FILE
+# SAC
+RSAC155      414     11921   flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAC128      421     8585    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAC123      423     1358    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+DCC          365     0       flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+GEORG_SL     366     0       flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+MOK          349     3529    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+
+RSAC101      430     9684    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAC092      433     12134   flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAC081      436     5733    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+SLTRM004     310     540     flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+
+RSAC075      437     11108   flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAC064      452     190     flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAC054      441     length  flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+# SJR 
+RSAN112      17      4744    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAN087      6       3930    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAN072      10      9400    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAN063      14      3281    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAN058      20      2222    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSMKL008     344     7088    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAN037      42      286     flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAN032      349     9672    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAN018      83      4213    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+SLDUT007     274     7351    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RSAN007      52      366     flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+# South Delta
+FAL          279     5593    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+FCT          280     6928    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+HLT          159     0       flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+HOL          117     3584    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+TRN          172     1571    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+OH1          54      1009    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+PDC          203     5945    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+OLD_MID      59      0       flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+ROLD024      106     2718    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+ROLD034      90      3021    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+ROLD047      79      2766    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+ROLD059      71      3116    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+ROLD074      54      0       flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RMID015_144  144     838     flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RMID015_145  145     2114    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+RMID023      135     719     flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+GLC          213     3409    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+CHGRL009     207     36      flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+VCU          229     729     flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+CHVCT000     229     1328    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+CHDMC006     216     0       flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+CHSWP003     82      length  flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+# Suisun
+SLMZU025     513     13420   flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+SLMZU011     517     0       flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+SLSUS012     461     9982    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+SLCBN002     477     0       flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+# Others
+SLBAR002     406     0       flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+HWB          388     7914    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+SSS          383     8813    flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+SUT          379     506     flow ${FINE_OUT} inst ${HYDROOUTDSSFILE_FLOW}
+END

@@ -1,0 +1,43 @@
+############################################################################################
+# Created automatically by CSDP, using the following network and landmark files,
+# with the Find Channel/Distance for Landmarks function
+# Network file: D:\dsm2GisReference\csdpFiles\final\delta_2019Calib_navd88
+# Landmark file: D:\dsm2GisReference\csdpFiles\final\outputLocationsv8.3\dsm2_ec_calib_loc
+# 
+# The commented out value at end of each line is the distance to the centerline (ft). 
+# This distance should be small. If it is not, this may mean that the network file used
+# to create this file was missing the matching channel. If so, the output location
+# should not be used.
+############################################################################################
+OUTPUT_CHANNEL
+NAME               CHAN_NO  DISTANCE VARIABLE INTERVAL    PERIOD_OP FILE
+UNI                     58      4975 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 12.6                
+SNC                    476      8779 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 6.6                 
+BDL                    517      7876 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 207.7               
+ANC                     51     11789 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 515.6               
+TSL                    310      1530 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 262.5               
+MAL                    437      9033 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 1118.2              
+OLD                     71      3461 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 26.5                
+BAC                    106      1537 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 291.3               
+RVB                    430     12521 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 515.6               
+BKS                    406         0 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 377.9               
+PCT                    438      9532 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 1154.9              
+DSJ                    274      7729 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 58.5                
+VER                     17      5879 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 25.2                
+CLL                    436      3967 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 1894.6              
+SSS                    383      8791 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 106.9               
+DMC                     81         0 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 70.2                
+SAL                     45      5793 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 1020.4              
+CLC                    232       111 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 1156.3              
+VCU                    229      1309 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 269.9               
+PRI                     42      1887 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 162.4               
+JER                     83      3763 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 399.7               
+RRI                     20      2247 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 220.5               
+EMM                    434       133 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 76.9                
+NSL                    513     12967 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 116.9               
+CNT                    260         0 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 7510.1              
+VOL                    461      9881 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 269.1               
+BDT                     11        81 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 86.3                
+STI                    345       276 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 259.2               
+RSL                    247      1738 ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE}  # 1.6                 
+END

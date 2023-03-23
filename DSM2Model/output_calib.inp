@@ -1,0 +1,72 @@
+# Description:
+# Output locations for HYDRO with RKI labels.
+# locations updated CSDP
+# Calibration 2020
+# 20200904
+OUTPUT_CHANNEL
+NAME     CHAN_NO  DISTANCE VARIABLE  INTERVAL PERIOD_OP FILE
+fpt                    414     11615 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 265.4               
+fpt                    414     11615 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 265.4               
+sdc                    421      8797 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 161.1               
+sdc                    421      8797 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 161.1               
+ges                    423      1914 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 140.8               
+ges                    423      1914 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 140.8               
+srv                    430     12521 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 515.6               
+srv                    430     12521 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 515.6               
+bdt                     11        81 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 86.3                
+bdt                     11        81 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 86.3                
+rri                     20      2247 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 220.7               
+rri                     20      2247 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 220.7               
+tsl                    310      6345 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 294.5               
+tsl                    310      6345 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 294.5               
+sjj                     83      3763 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 399.9               
+sjj                     83      3763 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 399.9               
+oh1                     54       354 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 3.5                 
+oh1                     54       354 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 3.5                 
+oh4                     90      2126 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 88.6                
+oh4                     90      2126 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 88.6                
+obi                    106      1537 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 291.3               
+obi                    106      1537 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 291.3               
+gss                    366       813 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 86.7                
+gss                    366       813 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 86.7                
+dsj                    274      7729 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 58.5                
+dsj                    274      7729 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 58.5                
+hwb                    388      7989 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 43.3                
+hwb                    388      7989 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 43.3                
+sss                    383      8791 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 106.9               
+sss                    383      8791 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 106.9               
+sut                    379       426 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 38.8                
+sut                    379       426 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 38.8                
+msd                      6      3310 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 62.4                
+msd                      6      3310 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 62.4                
+sjg                     14      2718 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 122.3               
+sjg                     14      2718 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 122.3               
+old                     71      3461 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 26.5                
+old                     71      3461 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 26.5                
+oad                     79      3422 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 98.4                
+oad                     79      3422 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 98.4                
+gct                    207       160 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 65.3                
+gct                    207       160 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 65.3                
+bdl                    517      7876 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 207.6               
+bdl                    517      7876 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 207.6               
+DLC                    365      1660 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 165.2               
+HOL                    117      3747 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 302.2               
+FAL                    279      5553 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 267.4               
+VCU                    229      1309 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 269.9               
+TRN                    172      1270 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 71.0               
+FCT                    280      6254 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 307.7               
+NSL                    513     12967 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 116.9               
+MOK                    349      3395 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 378.9               
+HLT                    159       0   flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 174.8               
+PDC                    203      5815 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 99.6                
+DLC                    365      1660 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 165.2               
+HOL                    117      3747 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 302.2               
+FAL                    279      5553 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 267.4               
+VCU                    229      1309 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 269.9               
+TRN                    172      1270 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 71.0               
+FCT                    280      6254 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 307.7               
+NSL                    513     12967 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 116.9               
+MOK                    349      3395 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 378.9               
+HLT                    159       0   stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 174.8               
+PDC                    203      5815 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE_CALIB}  # 99.6                
+END

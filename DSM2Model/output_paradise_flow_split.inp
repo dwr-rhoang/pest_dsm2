@@ -1,0 +1,7 @@
+OUTPUT_CHANNEL
+NAME               CHAN_NO  DISTANCE VARIABLE INTERVAL    PERIOD_OP FILE
+SJR_FLOW	       4       13621 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}
+CHAN195		       195     0     flow     ${FINE_OUT} isnt	    ${HYDROOUTDSSFILE}
+CHAN195_10	       195     10     flow     ${FINE_OUT} isnt	    ${HYDROOUTDSSFILE}
+CHAN196		       196     0     flow     ${FINE_OUT} isnt	    ${HYDROOUTDSSFILE}
+END

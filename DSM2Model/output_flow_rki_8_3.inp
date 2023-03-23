@@ -1,0 +1,41 @@
+############################################################################################
+# Created automatically by CSDP, using the following network and landmark files,
+# with the Find Channel/Distance for Landmarks function
+# Network file: D:\dsm2GisReference\csdpFiles\final\delta_2019Calib_navd88
+# Landmark file: D:\dsm2GisReference\csdpFiles\final\outputLocationsv8.3\dsm2_flow_calib_loc_rki
+# 
+# The commented out value at end of each line is the distance to the centerline (ft). 
+# This distance should be small. If it is not, this may mean that the network file used
+# to create this file was missing the matching channel. If so, the output location
+# should not be used.
+############################################################################################
+OUTPUT_CHANNEL
+NAME               CHAN_NO  DISTANCE VARIABLE INTERVAL    PERIOD_OP FILE
+HWB                    388      7989 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 43.3                
+SUT                    379       426 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 38.8                
+SLTRM004               310      1530 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 262.5               
+HOL                    117      3747 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 302.2               
+RSAC101                430     12521 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 515.6               
+FAL                    279      5553 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 267.4               
+ROLD024                106      1537 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 291.3               
+SSS                    383      8791 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 106.9               
+CHGRL009               207       160 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 65.3                
+Georg_SL               366       815 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 87.0                
+CHVCT000               229      1309 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 269.9               
+RSAN018                 83      3763 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 399.7               
+ROLD034                 90      2126 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 88.6                
+CHDCC000               365      1660 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 165.2               
+RSAN072                 11        81 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 86.3                
+TRN                    172      1270 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 71.0                
+FCT                    280      6254 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 307.7               
+RSAC128                421      8797 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 161.1               
+RSAC155                414     11615 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 265.4               
+RSAN058                 20      2247 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 220.5               
+RSAC123                423      1914 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 140.8               
+SLDUT007               274      7729 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 58.5                
+MOK                    349      3395 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 378.9               
+HLT                    155       441 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 174.8               
+PDC                    203      5815 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 99.6                
+ROLD074                 54       354 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 3.5                 
+SLMZU025               513     12967 flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 116.9               
+END

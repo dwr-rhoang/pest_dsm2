@@ -1,0 +1,34 @@
+############################################################################################
+# Created automatically by CSDP, using the following network and landmark files,
+# with the Find Channel/Distance for Landmarks function
+# Network file: D:\dsm2GisReference\csdpFiles\final\delta_2019Calib_navd88
+# Landmark file: D:\dsm2GisReference\csdpFiles\final\outputLocationsv8.3\dsm2_stage_calib_loc_rki
+# 
+# The commented out value at end of each line is the distance to the centerline (ft). 
+# This distance should be small. If it is not, this may mean that the network file used
+# to create this file was missing the matching channel. If so, the output location
+# should not be used.
+############################################################################################
+OUTPUT_CHANNEL
+NAME               CHAN_NO  DISTANCE VARIABLE INTERVAL    PERIOD_OP FILE
+SLTRM004               310      1530 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 262.5               
+ROLD059                 71      3461 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 26.5                
+RSAN007                 51     11789 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 515.6               
+RSAC101                430     12521 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 515.6               
+ROLD024                106      1537 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 291.3               
+RSAC054                441      5512 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 2519.7              
+RSAN063                 14      2718 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 122.3               
+CHGRL009               207       160 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 65.3                
+Georg_SL               366       815 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 87.0                
+RSAN018                 83      3763 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 399.7               
+ROLD034                 90      2126 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 88.6                
+SLMZU011               517      7876 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 207.7               
+RSAC128                421      8797 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 161.1               
+RSAC155                414     11615 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 265.4               
+RSAN058                 20      2247 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 220.5               
+SLDUT007               274      7729 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 58.5                
+ROLD047                 79      3422 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 98.4                
+RSAN087                  6      3310 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 62.2                
+ROLD074                 54       354 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 3.5                 
+SLMZU025               513     12967 stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  # 116.9               
+END

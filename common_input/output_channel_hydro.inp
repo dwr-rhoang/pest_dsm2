@@ -1,0 +1,112 @@
+# Description:
+# Standard output locations for HYDRO at stations with RKI labels.
+# 20151211
+OUTPUT_CHANNEL
+NAME     CHAN_NO DISTANCE VARIABLE INTERVAL    PERIOD_OP FILE              
+RSAC092		434	  435      flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}    
+RSAC092		434	  435      stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}
+chan511		511	  2886     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE}   
+chan511		511	  2886     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan442		442	  5350     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan442		442	  5350     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan437		437	  10100    flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan437		437	  10100    stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan434		437	  10070    flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan434		437	  10070    stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan50		50	  4860     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan50		50	  4860     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan309		309	  3796     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan309		309	  3796     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan144     144   1354     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan144     144   1354     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan145     145   1414     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan145     145   1414     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan71      71    3010     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan71      71    3010     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan128     128   0        flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan128     128   0        stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan205     205   0        flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+chan205     205   0        stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+MAB         133   6823     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+MAB         133   6823     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+ODM         80    1431     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+ODM         80    1431     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+OAD         79    2766     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+OAD         79    2766     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+GCT         207   0        flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+GCT         207   0        stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+GLE         206   0        flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+GLE         206   0        stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+DGL         205   0        flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+DGL         205  0         stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+OLD         71   3116      flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+OLD         71   3116      stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+UNI         125   1700     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+UNI         125   1700     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+OHI         54    735      flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+OHI         54    735      stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+MTB         133  3641      flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+MTB         133  3641      stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} MTB         133   6823      flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+ROLD034     90    3021     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+ROLD034     90    3021     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN134     134   3814     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN134     134   3814     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN80      80    0        flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN80      80    0        stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN71      71   3010      flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN71      71   3010      stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN70      70   1993      flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN70      70   1993      stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN59      59   2381      flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN59      59   2381      stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN212     212   0        flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN212     212   0        stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN392     392   0        flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CHAN392     392   0        stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+DLC-365     365   1510     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+DLC-365     365   1510     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+GSS-366     366   990     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+GSS-366     366   990     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+LPS-324     324   3715     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+LPS-324     324   3715     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+MOK-349     349   1474     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+MOK-349     349   1474     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+TSK-14      14    2425     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+TSK-14      14    2425     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+SANUB8      8      0        flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+SANUB8      8      0        stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CIS-219     219    0       flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+CIS-219     219    0       stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+MHR-131     131    0       flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+MHR-131     131    0       stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}  
+DGL-205     205    2485     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+DGL-205     205    2485     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+TPS-183     183    0       flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+TPS-183     183    0       stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+TPI-194     194    100     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+TPI-194     194    100     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+TPP-186     186    0       flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+TPP-186     186    0       stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+VNI-37      37     0       flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+VNI-37      37     0       stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+ISH-253     253    0       flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+ISH-253     253    0       stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+MUP         135    837     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+MUP         135    837     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}
+ORX         60     4266    flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+ORX         60     4266    stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}
+PDC         203    5965    flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+PDC         203    5965    stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}
+ORM         77     4706    flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+ORM         77     4706    stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}
+SGA         183    777     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+SGA         183    777     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}
+SJD         8      10296   flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+SJD         8      10296   stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}
+WCI         232    662     flow     ${FINE_OUT} inst      ${HYDROOUTDSSFILE} 
+WCI         232    662     stage    ${FINE_OUT} inst      ${HYDROOUTDSSFILE}
+
+
+
+
+END

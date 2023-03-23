@@ -1,0 +1,27 @@
+# dss and h5 related outputs
+*.dss
+*.h5
+*.hof
+*.hrf
+*.dsc
+*.dsd
+*.dsk
+
+# PEST related outputs
+*.par
+*.rec
+*.res
+*.rei
+*.cnd
+*.drf
+*.jac
+*.jco
+*.jst
+*.mtt
+*.rei
+*.res
+*.rsd
+*.rst
+*.sen
+*.seo
+*.svd

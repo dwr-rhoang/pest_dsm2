@@ -1,0 +1,18 @@
+# Description:
+# NAVD
+# Standard Delta Configuration
+# 20121214
+RESERVOIR_IC
+RES_NAME  STAGE  
+little_franks_tract 5.000
+clifton_court       5.000     
+discovery_bay       5.000     
+franks_tract        5.000     
+liberty             7.000     
+mildred             5.000     
+yolo_flyway	    4.030
+decker_island	    4.020
+tule_red	    3.840
+END
+
+

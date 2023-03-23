@@ -1,0 +1,69 @@
+# Description:
+# Output locations for HYDRO with RKI labels.
+# locations updated CSDP
+# Calibration 2020
+# 20200904
+OUTPUT_CHANNEL
+NAME     CHAN_NO  DISTANCE VARIABLE  INTERVAL PERIOD_OP FILE
+# SAC
+RSAC155      414     11921   stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAC128      421     8585    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAC123      423     1358    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+DCC          365     0       stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+GEORG_SL     366     0       stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+MOK          349     3529    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+
+RSAC101      430     9684    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAC092      433     12134   stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAC081      436     5733    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+SLTRM004     310     540     stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+
+RSAC075      437     11108   stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAC064      452     190     stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAC054      441     length  stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+# SJR 
+RSAN112      17      4744    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAN087      6       3930    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAN072      10      9400    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAN063      14      3281    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAN058      20      2222    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSMKL008     344     7088    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAN037      42      286     stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAN032      349     9672    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAN018      83      4213    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+SLDUT007     274     7351    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RSAN007      52      366     stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+# South Delta
+FAL          279     5593    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+FCT          280     6928    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+HLT          159     0       stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+HOL          117     3584    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+TRN          172     1571    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+OH1          54      1009    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+PDC          203     5945    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+OLD_MID      59      0       stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+ROLD024      106     2718    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+ROLD034      90      3021    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+ROLD047      79      2766    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+ROLD059      71      3116    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+ROLD074      54      0       stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RMID015_144  144     838     stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RMID015_145  145     2114    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+RMID023      135     719     stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+GLC          213     3409    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+CHGRL009     207     36      stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+VCU          229     729     stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+CHVCT000     229     1328    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+CHDMC006     216     0       stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+CHSWP003     82      length  stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+# Suisun
+SLMZU025     513     13420   stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+SLMZU011     517     0       stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+SLSUS012     461     9982    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+SLCBN002     477     0       stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+# Others
+SLBAR002     406     0       stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+HWB          388     7914    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+SSS          383     8813    stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+SUT          379     506     stage ${FINE_OUT} inst ${HYDROOUTDSSFILE_STAGE}
+END

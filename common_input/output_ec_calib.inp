@@ -1,0 +1,59 @@
+# Description:
+# Output locations for EC with RKI labels.
+# locations updated CSDP
+# Calibration 2020
+# 20200904
+OUTPUT_CHANNEL
+NAME               CHAN_NO  DISTANCE VARIABLE INTERVAL    PERIOD_OP FILE
+# SAC
+RSAC155      414     11921   ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAC139      418     4814    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAC123      423     1358    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAC101      430     9684    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAC092      433     12134   ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAC081      436     5733    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAC075      437     11108   ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAC064      452     190     ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAC054      441     length  ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+SACR_3MILE_431      431      length  ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+SLTRM004     310     4704    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+# SJR 
+RSAN112      17      4744    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAN087      6       3343    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAN072      10      9400    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSMKL008     344     7088    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAN058      20      2222    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAN046      31      5628    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAN037      42      286     ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAN032      349     9672    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAN018      83      4213    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RSAN007      52      366     ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+# South Delta
+SLDUT007     274     7351    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+ROLD059      71      3116    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+ROLD034      90      2357    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+ROLD024      106     2049    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+RMID015      144     1003    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+SLRCK005     247     909     ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+CHVCT000     229     1328    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+OLD_MID      59      0       ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+CHDMC006     216     0       ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+CHSWP003     82      length  ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+# Suisun
+SLMZU025     513     13883   ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+SLMZU011     517     0       ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+SLSUS012     461     9982    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+SLCBN002     477     0       ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+# Others
+SLBAR002     406     0       ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+SSS          383     8813    ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+SLCCH016     402     0       ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC}
+END
+
+
+OUTPUT_RESERVOIR
+NAME                 RES_NAME      NODE VARIABLE  INTERVAL    PERIOD_OP FILE             
+FRK_frankstract      franks_tract  none   ec      ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC} 
+HBP_HRO_clict        clifton_court none   ec      ${FINE_OUT} inst      ${QUALOUTDSSFILE_EC} 
+END
+

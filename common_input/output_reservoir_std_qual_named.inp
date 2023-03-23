@@ -1,0 +1,9 @@
+# Description:
+# Output for QUAL at common named locations
+# 20090715
+OUTPUT_RESERVOIR
+NAME          RES_NAME      NODE VARIABLE INTERVAL    PERIOD_OP FILE             
+clifton_court clifton_court none ec       ${FINE_OUT} inst      ${QUALOUTDSSFILE} 
+END
+
+

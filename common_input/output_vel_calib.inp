@@ -1,0 +1,69 @@
+# Description:
+# Output locations for HYDRO with RKI labels.
+# locations updated CSDP
+# Calibration 2020
+# 20200904
+OUTPUT_CHANNEL
+NAME     CHAN_NO DISTANCE VARIABLE  INTERVAL PERIOD_OP FILE
+# SAC
+RSAC155      414     11921   vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAC128      421     8585    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAC123      423     1358    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+DCC          365     0       vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+GEORG_SL     366     0       vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+MOK          349     3529    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+
+RSAC101      430     9684    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAC092      433     12134   vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAC081      436     5733    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+SLTRM004     310     540     vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+
+RSAC075      437     11108   vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAC064      452     190     vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAC054      441     length  vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+# SJR 
+RSAN112      17      4744    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAN087      6       3930    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAN072      10      9400    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAN063      14      3281    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAN058      20      2222    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSMKL008     344     7088    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAN037      42      286     vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAN032      349     9672    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAN018      83      4213    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+SLDUT007     274     7351    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RSAN007      52      366     vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+# South Delta
+FAL          279     5593    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+FCT          280     6928    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+HLT          159     0       vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+HOL          117     3584    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+TRN          172     1571    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+OH1          54      1009    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+PDC          203     5945    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+OLD_MID      59      0       vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+ROLD024      106     2718    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+ROLD034      90      3021    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+ROLD047      79      2766    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+ROLD059      71      3116    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+ROLD074      54      0       vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RMID015_144  144     838     vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RMID015_145  145     2114    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+RMID023      135     719     vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+GLC          213     3409    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+CHGRL009     207     36      vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+VCU          229     729     vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+CHVCT000     229     1328    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+CHDMC006     216     0       vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+CHSWP003     82      length  vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+# Suisun
+SLMZU025     513     13420   vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+SLMZU011     517     0       vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+SLSUS012     461     9982    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+SLCBN002     477     0       vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+# Others
+SLBAR002     406     0       vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+HWB          388     7914    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+SSS          383     8813    vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+SUT          379     506     vel ${FINE_OUT} inst ${HYDROOUTDSSFILE_VEL}
+END

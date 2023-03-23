@@ -1,0 +1,7 @@
+variable name        metric_value                         metric_type 
+CLL/FLOW        -100.000000000000                        nrmse
+ANC/FLOW        -100.000000000000                        nrmse
+EMM/FLOW        -100.000000000000                        nrmse
+JER/FLOW        -100.000000000000                        nrmse
+TSL/FLOW        -100.000000000000                        nrmse
+DSJ/FLOW        -100.000000000000                        nrmse
