@@ -51,9 +51,6 @@ START OBSERVATIONS
 {cll,flow,nrmse,1}
 {anc,flow,nrmse,1}
 {emm,flow,nrmse,1}
-{jer,flow,nrmse,1}
-{tsl,flow,nrmse,1}
-{dsj,flow,nrmse,1}
 END OBSERVATIONS
 #
 #
