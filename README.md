@@ -141,10 +141,33 @@ END CONFIGS
 ```
 > IMPORTANT: Make sure to change the upper and lower bound of the parameters when switching between HYDRO and QUAL calibrations.
 
-# 4. Accessing results
-The results from a completed PEST run are stored in *mainconfig.txt*. The PLACEHOLDER_VAL will be replaced with PEST-calculated manning's n resulting from the PEST calibration.
+# 5. Accessing results
+Results are written out in multple places:  
 
-# 5. Key File Descriptions
+1. the .rec file.
+
+2. The results from a completed PEST run are stored in *mainconfig.txt*. The PLACEHOLDER_VAL will be replaced with PEST-calculated manning's n resulting from the PEST calibration.  
+
+3. The *log.txt* file is written out by *makemetrics.py*. The parameters and residuals for every iteration of DSM2 that PEST runs is written to this file.
+
+
+# 8. Runtime Details
+PEST is model-agnostic, meaning that is has no understanding of what DSM2 is. It iterates over a model and records the parameter change and the residual error, forms a matrix and optimizes the parameter by minimzing the residual error. As such, the "model" that PEST runs is not just DSM2 itself, it runs a script sequence (in which DSM2 is one of the steps). The sequence is as follows:
+
+```prepro.py --> DSM2_batch.bat --> makemetrics.py```
+
+where,
+
+- **prepro.py**
+parses mainconfig.txt and generates .inp files for DSM2 using pydsm read_input and write_input. The principle purpose of this file is to transfer the updated parameters for each iteration back into the channel_std_delta_grid.inp file; this is how DSM2 knows to use the updated parameters for each iteration.
+
+- **DSM2_batch.bat***
+This is just the standard batch file that runs DSM2 - it is not modified for use in PEST. Executing this batch file will run DSM2 as normal.
+
+- **makemetrics.py**
+makes metrics csv file using pydsm compare_dss. I/O: (observed dss file, dsm2 output file)/(metrics.csv). The principle purpose of this file is to post process the DSM2 outputs into metrics for PEST to read. This file modifies *metrics.dat*.
+
+# 7. Other File Descriptions
 
 **mainconfig.txt**
 contains the user-defined directories, configurations and parameters. PEST modifies the parameter values in this file.
@@ -155,10 +178,6 @@ parses mainconfig.txt. reads directories, configurations and parameters into pyt
 **pestsetup.py**
 generates the PEST control file based on parameters in the mainconfig.txt file. Calls pestgen.exe.
 
-**prepro.py**
-parses mainconfig.txt and generates .inp files for DSM2 using pydsm read_input and write_input
 
-**makemetrics.py**
-makes metrics csv file using pydsm compare_dss. I/O: (observed dss file, dsm2 output file)/(metrics.csv)
 
 
